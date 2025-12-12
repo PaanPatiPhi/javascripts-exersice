@@ -3,7 +3,7 @@
 let userName;
 
 function userNameChecking (userName){
-    if (userName === ""){
+    if (userName){
         console.log("โปรดระบุชื่อผู้ใช้งาน ❌");
     }
     else {
