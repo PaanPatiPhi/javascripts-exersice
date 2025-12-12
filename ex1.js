@@ -1,14 +1,15 @@
+
+
 let userName;
 
 function userNameChecking (userName){
-    if (userName !==0){
-        console.log("ยินดีต้อนรับเข้าสู่ระบบ")
+    if (userName === ""){
+        console.log("โปรดระบุชื่อผู้ใช้งาน ❌");
     }
     else {
-        console.log("กรุณาตรวจสอบ Email หรือ password ใหม่อีกครั้ง")
-    }
+    console.log(`สวัสดี, ${userName} 👋`);    }
 }
 
-userName = "Hello"
+userName= "";
 
-userNameChecking();
+userNameChecking(userName);
